@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 90vh;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("./img/Chronometer.jpg");
+  background-size: 60%;
+}
+h1 {
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+.container {
+  width: 50%;
+  height: 70%;
+  margin: 4rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+form label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+#secilen-dk,
+#secilen-sn {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+#baslat,
+#sıfırla {
+  width: 10%;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  background: rgb(184, 63, 63);
+  border-radius: 50%;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: large;
+}
+#baslat:hover {
+  background: rgb(226, 70, 70);
+}
+#sıfırla {
+  background: rgb(63, 184, 89);
+}
+#sıfırla:hover {
+  background: rgb(76, 226, 108);
+}
